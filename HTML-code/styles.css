@@ -1,0 +1,71 @@
+body {
+  background-color: #121212; /* Soft black with a hint of depth */
+  color: #1A1A1A; /* Optional: subtle text color if needed */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* PSG color vibe for paragraphs */
+p {
+  color: #003366; color: #9b0505;/* Dark Blue - Home kit primary */
+}
+
+/* You can add a second paragraph style for Burgundy Red accents */
+p.alt-color {
+  color: #9b0505; /* Burgundy/Crimson - PSG trim vibe */
+}
+a {
+  color: #00FFFF; /* Neon blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Optional glow effect */
+a:hover {
+  text-shadow: 0 0 8px #00FFFF, 0 0 16px #00FFFF;
+  color: #00FFFF;
+}
+/* Make the browser tab title (optional visual effect) */
+title {
+  color: red; /* Note: this won't affect browser tab appearance */
+}
+
+/* For visual headers in the HTML */
+h1 {
+  color: #003366; /* PSG dark blue */
+  font-family: 'Lucida Handwriting';
+}
+
+/* Second h1 – if you have more than one and want it red */
+h1.alt {
+  color: #FF0000; /* PSG-style red */
+}
+
+/* h2 (you can style more if needed) */
+h2 {
+  color: #FF0000; /* PSG blue again */
+  font-family: 'Lucida Handwriting';
+}
+
+/* h3 style */
+h3 {
+  color: #003366; /* PSG red */
+  font-family: 'Lucida Handwriting';
+}
+
+/* Optional: alternate blue h3 */
+h3.alt {
+  color: #FF0000; /* PSG blue */
+}
+.page-title {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lucida Handwriting';
+}
+h1, h2, h3 {
+  text-align: center;
+}
+h4 {
+  color: #ff0000; /* Bright red */
+}
